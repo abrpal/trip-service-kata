@@ -1,10 +1,13 @@
 {
     "compilerOptions": {
         "outDir": "./built",
+        "rootDir": ".",
         "allowJs": false,
-        "target": "es6"
+        "target": "es6",
+        "types": ["jest", "node"]
     },
     "include": [
-        "./src/**/*"
+        "./src/**/*",
+        "./test/**/*"
     ]
 }

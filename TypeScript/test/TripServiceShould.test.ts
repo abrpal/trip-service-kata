@@ -1,7 +1,6 @@
-import "jest";
 
 describe("TripServiceShould", () => {
-    it("...", () => {
-        expect(4 + 4).toBe(9);
+    it("adds numbers", () => {
+        expect(4 + 4).toBe(8);
     });
 });
